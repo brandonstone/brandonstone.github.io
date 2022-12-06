@@ -1,5 +1,6 @@
 //Author: Brandon Stone
 
-function indexRoute() {
-	location.replace("https://brandonstone.github.io")
+function router(index = "") {
+	const loc = "https://brandonstone.github.io/" + index
+	location.replace(loc)
 }
